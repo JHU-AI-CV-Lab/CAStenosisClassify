@@ -1,0 +1,20 @@
+name: castenosis_classify
+channels:
+  - defaults
+dependencies:
+  - pip==20.0.2
+  - python==3.7.7
+  - scikit-learn==1.2.2
+  - scikit-image==1.19.3
+  - scipy==1.10.1	
+  - seaborn==0.12.2	
+  - tensorboard=1.14.0
+  - tensorflow=1.14.0
+  - tensorflow-base=1.14.0
+  - tensorflow-estimator=1.14.0
+  - pandas==0.25.3
+  - numpy==1.20.1
+  - matplotlib==3.1.1
+  - opencv-python==4.1.1.26
+  - keras-applications=1.0.8
+  - keras-preprocessing=1.1.0

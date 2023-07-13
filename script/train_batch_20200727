@@ -1,0 +1,37 @@
+activate tensorflow
+d:
+cd D:\OneDrive\PycharmProjects\CAStenosisClassify
+
+
+
+python TrainCore320_InceptionC_0-12-r.py 0 1 E:\\cag_data\\Core320_train_0-12_with_r_org\\R_II\\ R > .\\out\\TrainCore320_InceptionC_0-12-r.0520R_II.1.out 2>&1 &
+python TrainCore320_InceptionC_0-12-r.py 0 2 E:\\cag_data\\Core320_train_0-12_with_r_org\\R_II\\ R > .\\out\\TrainCore320_InceptionC_0-12-r.0520R_II.2.out 2>&1 &
+python TrainCore320_InceptionC_0-12-r.py 0 3 E:\\cag_data\\Core320_train_0-12_with_r_org\\R_II\\ R > .\\out\\TrainCore320_InceptionC_0-12-r.0520R_II.3.out 2>&1 &
+python TrainCore320_InceptionC_0-12-r.py 0 4 E:\\cag_data\\Core320_train_0-12_with_r_org\\R_II\\ R > .\\out\\TrainCore320_InceptionC_0-12-r.0520R_II.4.out 2>&1 &
+
+python TrainCore320_InceptionC_0-1-2.py 0 1 E:\\cag_data\\Core320_train_0-1-2_with_r_org\\R_II\\ R
+
+python TrainCore320_InceptionC_0-12-r.py 0 1 E:\\cag_data\\Core320_train_0-12_with_r_org\\RAO_CRA_II\\ RAO_CRA > .\\out\\TrainCore320_InceptionC_0-12-r.RAO_CRA_II.1.out 2>&1 &
+python TrainCore320_InceptionC_0-12-r.py 0 2 E:\\cag_data\\Core320_train_0-12_with_r_org\\RAO_CRA_II\\ RAO_CRA > .\\out\\TrainCore320_InceptionC_0-12-r.RAO_CRA_II.2.out 2>&1 &
+python TrainCore320_InceptionC_0-12-r.py 0 3 E:\\cag_data\\Core320_train_0-12_with_r_org\\RAO_CRA_II\\ RAO_CRA > .\\out\\TrainCore320_InceptionC_0-12-r.RAO_CRA_II.3.out 2>&1 &
+python TrainCore320_InceptionC_0-12-r.py 0 4 E:\\cag_data\\Core320_train_0-12_with_r_org\\RAO_CRA_II\\ RAO_CRA > .\\out\\TrainCore320_InceptionC_0-12-r.RAO_CRA_II.4.out 2>&1 &
+
+python TrainCore320_InceptionC_0-12-r.py 1 1 /home/ccong3/data/Core320_train_0-12_with_r_20190520/RAO_CAU_II/ 0520RAO_CAU_II > ./out/TrainCore320_InceptionC_0-12-r.0520RAO_CAU_II.1.out 2>&1 &
+python TrainCore320_InceptionC_0-12-r.py 0 2 /home/ccong3/data/Core320_train_0-12_with_r_20190520/RAO_CAU_II/ 0520RAO_CAU_II > ./out/TrainCore320_InceptionC_0-12-r.0520RAO_CAU_II.2.out 2>&1 &
+python TrainCore320_InceptionC_0-12-r.py 1 3 /home/ccong3/data/Core320_train_0-12_with_r_20190520/RAO_CAU_II/ 0520RAO_CAU_II > ./out/TrainCore320_InceptionC_0-12-r.0520RAO_CAU_II.3.out 2>&1 &
+python TrainCore320_InceptionC_0-12-r.py 0 4 /home/ccong3/data/Core320_train_0-12_with_r_20190520/RAO_CAU_II/ 0520RAO_CAU_II > ./out/TrainCore320_InceptionC_0-12-r.0520RAO_CAU_II.4.out 2>&1 &
+
+nohup python3 TrainCore320_InceptionC_0-12-r.py 1 1 /home/ccong3/data/Core320_train_0-12_with_r_20190520/LAO_CRA_II/ 0520LAO_CRA_II > ./out/TrainCore320_InceptionC_0-12-r.0520LAO_CRA_II.1.out 2>&1 &
+nohup python3 TrainCore320_InceptionC_0-12-r.py 0 2 /home/ccong3/data/Core320_train_0-12_with_r_20190520/LAO_CRA_II/ 0520LAO_CRA_II > ./out/TrainCore320_InceptionC_0-12-r.0520LAO_CRA_II.2.out 2>&1 &
+nohup python3 TrainCore320_InceptionC_0-12-r.py 1 3 /home/ccong3/data/Core320_train_0-12_with_r_20190520/LAO_CRA_II/ 0520LAO_CRA_II > ./out/TrainCore320_InceptionC_0-12-r.0520LAO_CRA_II.3.out 2>&1 &
+nohup python3 TrainCore320_InceptionC_0-12-r.py 0 4 /home/ccong3/data/Core320_train_0-12_with_r_20190520/LAO_CRA_II/ 0520LAO_CRA_II > ./out/TrainCore320_InceptionC_0-12-r.0520LAO_CRA_II.4.out 2>&1 &
+
+nohup python3 TrainCore320_InceptionC_0-12-r.py 1 1 /home/ccong3/data/Core320_train_0-12_with_r_20190520/RAO_CRA_II/ 0520RAO_CRA_II > ./out/TrainCore320_InceptionC_0-12-r.0520RAO_CRA_II.1.out 2>&1 &
+nohup python3 TrainCore320_InceptionC_0-12-r.py 0 2 /home/ccong3/data/Core320_train_0-12_with_r_20190520/RAO_CRA_II/ 0520RAO_CRA_II > ./out/TrainCore320_InceptionC_0-12-r.0520RAO_CRA_II.2.out 2>&1 &
+nohup python3 TrainCore320_InceptionC_0-12-r.py 1 3 /home/ccong3/data/Core320_train_0-12_with_r_20190520/RAO_CRA_II/ 0520RAO_CRA_II > ./out/TrainCore320_InceptionC_0-12-r.0520RAO_CRA_II.3.out 2>&1 &
+nohup python3 TrainCore320_InceptionC_0-12-r.py 0 4 /home/ccong3/data/Core320_train_0-12_with_r_20190520/RAO_CRA_II/ 0520RAO_CRA_II > ./out/TrainCore320_InceptionC_0-12-r.0520RAO_CRA_II.4.out 2>&1 &
+
+nohup python3 TrainCore320_InceptionC_0-12-r.py 1 1 /home/ccong3/data/Core320_train_0-12_with_r_20190520/LAO_CAU/ 0520LAO_CAU > ./out/TrainCore320_InceptionC_0-12-r.0520LAO_CAU.1.out 2>&1 &
+nohup python3 TrainCore320_InceptionC_0-12-r.py 0 2 /home/ccong3/data/Core320_train_0-12_with_r_20190520/LAO_CAU/ 0520LAO_CAU > ./out/TrainCore320_InceptionC_0-12-r.0520LAO_CAU.2.out 2>&1 &
+nohup python3 TrainCore320_InceptionC_0-12-r.py 1 3 /home/ccong3/data/Core320_train_0-12_with_r_20190520/LAO_CAU/ 0520LAO_CAU > ./out/TrainCore320_InceptionC_0-12-r.0520LAO_CAU.3.out 2>&1 &
+nohup python3 TrainCore320_InceptionC_0-12-r.py 0 4 /home/ccong3/data/Core320_train_0-12_with_r_20190520/LAO_CAU/ 0520LAO_CAU > ./out/TrainCore320_InceptionC_0-12-r.0520LAO_CAU.4.out 2>&1 &

@@ -1,0 +1,47 @@
+activate tensorflow
+d:
+cd D:\OneDrive\PycharmProjects\InceptionV3
+->
+python EvalCore320_InceptionC_0-1-2-r.py 0 1 E:\\Core320_train_0-1-2_with_r_20190520\\RAO_CRA\\ E:\\hdf5\\coronary_weightsC.0520RCRA.0_1_2_r.best.1.hdf5
+python EvalCore320_InceptionC_0-1-2-r.py 0 2 E:\\Core320_train_0-1-2_with_r_20190520\\RAO_CRA\\ E:\\hdf5\\coronary_weightsC.0520RCRA.0_1_2_r.best.2.hdf5
+python EvalCore320_InceptionC_0-1-2-r.py 0 3 E:\\Core320_train_0-1-2_with_r_20190520\\RAO_CRA\\ E:\\hdf5\\coronary_weightsC.0520RCRA.0_1_2_r.best.3.hdf5
+python EvalCore320_InceptionC_0-1-2-r.py 0 4 E:\\Core320_train_0-1-2_with_r_20190520\\RAO_CRA\\ E:\\hdf5\\coronary_weightsC.0520RCRA.0_1_2_r.best.4.hdf5
+
+python EvalCore320_InceptionC_0-1-2-r.py 0 1 E:\\Core320_train_0-1-2_with_r_20190520\\RAO_CAU\\ E:\\hdf5\\coronary_weightsC.0520RAO_CAU.0_1_2_r.best.1.hdf5
+python EvalCore320_InceptionC_0-1-2-r.py 0 2 E:\\Core320_train_0-1-2_with_r_20190520\\RAO_CAU\\ E:\\hdf5\\coronary_weightsC.0520RAO_CAU.0_1_2_r.best.2.hdf5
+python EvalCore320_InceptionC_0-1-2-r.py 0 3 E:\\Core320_train_0-1-2_with_r_20190520\\RAO_CAU\\ E:\\hdf5\\coronary_weightsC.0520RAO_CAU.0_1_2_r.best.3.hdf5
+python EvalCore320_InceptionC_0-1-2-r.py 0 4 E:\\Core320_train_0-1-2_with_r_20190520\\RAO_CAU\\ E:\\hdf5\\coronary_weightsC.0520RAO_CAU.0_1_2_r.best.4.hdf5
+
+
+python EvalCore320_InceptionC_0-1-2-r.py 0 1 E:\\Core320_train_0-1-2_with_r_20190520\\LAO_CRA\\ E:\\hdf5\\coronary_weightsC.0520LCRA.0_1_2_r.best.1.hdf5
+python EvalCore320_InceptionC_0-1-2-r.py 0 2 E:\\Core320_train_0-1-2_with_r_20190520\\LAO_CRA\\ E:\\hdf5\\coronary_weightsC.0520LCRA.0_1_2_r.best.2.hdf5
+python EvalCore320_InceptionC_0-1-2-r.py 0 3 E:\\Core320_train_0-1-2_with_r_20190520\\LAO_CRA\\ E:\\hdf5\\coronary_weightsC.0520LCRA.0_1_2_r.best.3.hdf5
+python EvalCore320_InceptionC_0-1-2-r.py 0 4 E:\\Core320_train_0-1-2_with_r_20190520\\LAO_CRA\\ E:\\hdf5\\coronary_weightsC.0520LCRA.0_1_2_r.best.4.hdf5
+
+python EvalCore320_InceptionC_0-1-2-r.py 0 1 E:\\Core320_train_0-1-2_with_r_20190520\\LAO_CAU\\ E:\\hdf5\\coronary_weightsC.0520LAO_CAU.0_1_2_r.best.1.hdf5
+python EvalCore320_InceptionC_0-1-2-r.py 0 2 E:\\Core320_train_0-1-2_with_r_20190520\\LAO_CAU\\ E:\\hdf5\\coronary_weightsC.0520LAO_CAU.0_1_2_r.best.2.hdf5
+python EvalCore320_InceptionC_0-1-2-r.py 0 3 E:\\Core320_train_0-1-2_with_r_20190520\\LAO_CAU\\ E:\\hdf5\\coronary_weightsC.0520LAO_CAU.0_1_2_r.best.3.hdf5
+python EvalCore320_InceptionC_0-1-2-r.py 0 4 E:\\Core320_train_0-1-2_with_r_20190520\\LAO_CAU\\ E:\\hdf5\\coronary_weightsC.0520LAO_CAU.0_1_2_r.best.4.hdf5
+
+
+python EvalCore320_InceptionC_0-1-2-r.py 0 1 E:\\Core320_train_0-1-2_with_r_20190520\\R_II\\ E:\\hdf5\\coronary_weightsC.0520R_II.0_1_2_r.best.1.hdf5
+python EvalCore320_InceptionC_0-1-2-r.py 0 2 E:\\Core320_train_0-1-2_with_r_20190520\\R_II\\ E:\\hdf5\\coronary_weightsC.0520R_II.0_1_2_r.best.2.hdf5
+python EvalCore320_InceptionC_0-1-2-r.py 0 3 E:\\Core320_train_0-1-2_with_r_20190520\\R_II\\ E:\\hdf5\\coronary_weightsC.0520R_II.0_1_2_r.best.3.hdf5
+python EvalCore320_InceptionC_0-1-2-r.py 0 4 E:\\Core320_train_0-1-2_with_r_20190520\\R_II\\ E:\\hdf5\\coronary_weightsC.0520R_II.0_1_2_r.best.4.hdf5
+
+python EvalCore320_InceptionC_0-1-2-r.py 0 1 E:\\Core320_train_0-1-2_with_r_20190520\\RAO_CRA_II\\ E:\\hdf5\\coronary_weightsC.0520RAO_CRA_II.0_1_2_r.best.1.hdf5
+python EvalCore320_InceptionC_0-1-2-r.py 0 2 E:\\Core320_train_0-1-2_with_r_20190520\\RAO_CRA_II\\ E:\\hdf5\\coronary_weightsC.0520RAO_CRA_II.0_1_2_r.best.2.hdf5
+python EvalCore320_InceptionC_0-1-2-r.py 0 3 E:\\Core320_train_0-1-2_with_r_20190520\\RAO_CRA_II\\ E:\\hdf5\\coronary_weightsC.0520RAO_CRA_II.0_1_2_r.best.3.hdf5
+python EvalCore320_InceptionC_0-1-2-r.py 0 4 E:\\Core320_train_0-1-2_with_r_20190520\\RAO_CRA_II\\ E:\\hdf5\\coronary_weightsC.0520RAO_CRA_II.0_1_2_r.best.4.hdf5
+
+
+python EvalCore320_InceptionC_0-1-2-r.py 0 1 E:\\Core320_train_0-1-2_with_r_20190520\\RAO_CAU_II\\ E:\\hdf5\\coronary_weightsC.0520RAO_CAU_II.0_1_2_r.best.1.hdf5
+python EvalCore320_InceptionC_0-1-2-r.py 0 2 E:\\Core320_train_0-1-2_with_r_20190520\\RAO_CAU_II\\ E:\\hdf5\\coronary_weightsC.0520RAO_CAU_II.0_1_2_r.best.2.hdf5
+python EvalCore320_InceptionC_0-1-2-r.py 0 3 E:\\Core320_train_0-1-2_with_r_20190520\\RAO_CAU_II\\ E:\\hdf5\\coronary_weightsC.0520RAO_CAU_II.0_1_2_r.best.3.hdf5
+python EvalCore320_InceptionC_0-1-2-r.py 0 4 E:\\Core320_train_0-1-2_with_r_20190520\\RAO_CAU_II\\ E:\\hdf5\\coronary_weightsC.0520RAO_CAU_II.0_1_2_r.best.4.hdf5
+
+
+python EvalCore320_InceptionC_0-1-2-r.py 0 1 E:\\Core320_train_0-1-2_with_r_20190520\\LAO_CRA_II\\ E:\\hdf5\\coronary_weightsC.0520LAO_CRA_II.0_1_2_r.best.1.hdf5
+python EvalCore320_InceptionC_0-1-2-r.py 0 2 E:\\Core320_train_0-1-2_with_r_20190520\\LAO_CRA_II\\ E:\\hdf5\\coronary_weightsC.0520LAO_CRA_II.0_1_2_r.best.2.hdf5
+python EvalCore320_InceptionC_0-1-2-r.py 0 3 E:\\Core320_train_0-1-2_with_r_20190520\\LAO_CRA_II\\ E:\\hdf5\\coronary_weightsC.0520LAO_CRA_II.0_1_2_r.best.3.hdf5
+python EvalCore320_InceptionC_0-1-2-r.py 0 4 E:\\Core320_train_0-1-2_with_r_20190520\\LAO_CRA_II\\ E:\\hdf5\\coronary_weightsC.0520LAO_CRA_II.0_1_2_r.best.4.hdf5
