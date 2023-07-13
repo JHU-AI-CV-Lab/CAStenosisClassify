@@ -9,12 +9,21 @@ The workflow was employed as follows: 1) Candidate frame selection from CAG vide
 See castenosis_classify.yaml.
 
 ## Usage
+### Pre-process
+Run generate_candidate_label.py and generate_candidate_total to prepare labels for candidate frame selection.
+Run generate_stenosis_label.py to prepare labels for 2/3-CAT stenosis classification.
+Run generate_redundant_label.py to prepare labels for redundancy category for stenosis classification.
+
 ### Candidate Frame Selection
 Run TrainCore320_Inception_TOTAL_012-r.py to train an InceptionV3 model for candidate frame classification.
 Run TrainCore320_Inception+LSTM_Region.py to train an LSTM for candidate region selection.
 
 ### Stenosis Classification
-Run TrainCore320_Inception_TOTAL_012-r.py to train an InceptionV3 model for candidate frame classification.
-Run TrainCore320_Inception+LSTM_Region.py to train an LSTM for candidate region selection.
+Run TrainCore320_InceptionC_0-1-2.py to train an InceptionV3 model for 3-CAT stenosis classification.
+Run TrainCore320_InceptionC_0-1-2-r.py to train an InceptionV3 model for 3-CAT stenosis classification with redundancy training.
+Run TrainCore320_InceptionC_0-12.py to train an InceptionV3 model for 2-CAT stenosis classification.
+Run TrainCore320_InceptionC_0-12-r.py to train an InceptionV3 model for 2-CAT stenosis classification with redundancy training.
+
+Run EvalCore320*.py to evaluate the model with test dataset.
 
 
